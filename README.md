@@ -8,7 +8,10 @@ Main `index.js` component makes and API call that is server side rendered using 
 Additionally webpack plugins are used to minify the bundle for optimization purposes.
 
 ## Lighthouse Reporter
+Performance - 98 <br>
+Accessibility - 96 <br>
+SEO - 100 <br>
 
-Performance - 98
-Accessibility - 96
-SEO - 100
+## Lighthouse Report Screenshot
+![Screenshot from 2021-05-12 23-46-52](https://user-images.githubusercontent.com/40193621/118025596-a70f1700-b37d-11eb-8f17-a70ff680ca8e.png)
+
