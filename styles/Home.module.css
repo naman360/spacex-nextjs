@@ -14,7 +14,7 @@
   justify-content: space-between;
   align-items: flex-start;
 }
-.main_heading{
+.main_heading {
   width: 100%;
   text-align: left;
 }
@@ -74,4 +74,7 @@
 }
 .active_btn {
   background-color: rgb(34, 112, 34);
+}
+.no_data {
+  margin: 40px auto;
 }

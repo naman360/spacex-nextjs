@@ -148,11 +148,17 @@ export default function Home({ data }) {
           </div>
         </div>
         <div className={styles.card_container}>
-          {filter
-            ? filteredData.map((entry, ind) => (
-                <LaunchCard key={ind} info={entry} />
+          {filter ? (
+            filteredData.length > 0 ? (
+              filteredData.map((entry, ind) => (
+                <LaunchCard key={ind + 101} info={entry} />
               ))
-            : data.map((entry, ind) => <LaunchCard key={ind} info={entry} />)}
+            ) : (
+              <h1 className={styles.no_data}>No data available</h1>
+            )
+          ) : (
+            data.map((entry, ind) => <LaunchCard key={ind} info={entry} />)
+          )}
         </div>
       </div>
       <h2>Developed by :- Naman Shankhydhar</h2>
