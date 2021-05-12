@@ -14,6 +14,10 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+.main_heading{
+  width: 100%;
+  text-align: left;
+}
 @media (max-width: 700px) {
   .container {
     flex-direction: column;

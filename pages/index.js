@@ -51,7 +51,7 @@ export default function Home({ data }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>SpaceX Launch Programs</h1>
+      <h1 className={styles.main_heading}>SpaceX Launch Programs</h1>
 
       <div className={styles.container}>
         <div className={styles.filter_container}>
@@ -155,6 +155,7 @@ export default function Home({ data }) {
             : data.map((entry, ind) => <LaunchCard key={ind} info={entry} />)}
         </div>
       </div>
+      <h2>Developed by :- Naman Shankhydhar</h2>
     </div>
   );
 }
