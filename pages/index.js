@@ -38,7 +38,7 @@ export default function Home({ data }) {
   };
 
   let yearArray = [];
-  for (let i = 2010; i <= 2020; i++) {
+  for (let i = 2006; i <= 2020; i++) {
     yearArray.push(i);
   }
   return (
